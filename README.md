@@ -1,3 +1,5 @@
+![WIF Quest — Good work knows no borders](assets/wif-quest-social-preview.png)
+
 # WIF Quest
 
 WIF Quest is a work-in-progress quest board for creators and contributors. The planned workflow is to fund a quest in $WIF, submit a deliverable, and let the creator approve an onchain payout on Robinhood Chain.
