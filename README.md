@@ -2,7 +2,7 @@
 
 WIF Quest is a work-in-progress quest board for creators and contributors. The planned workflow is to fund a quest in $WIF, submit a deliverable, and let the creator approve an onchain payout on Robinhood Chain.
 
-**Status: prototype, not deployed.** The frontend shows an empty state until a real escrow is configured. AI drafting is planned but not implemented. There are no mainnet transaction proofs yet. This prototype has not been audited; do not use it with meaningful funds.
+**Status: prototype, not deployed.** The frontend shows an empty state until a real escrow is configured. Optional AI drafting uses the browser's on-device Prompt API where available; it requires a compatible browser, hardware and model download, and has not been validated on all devices. There are no mainnet transaction proofs yet. This prototype has not been audited; do not use it with meaningful funds.
 
 ## Local development
 
@@ -27,7 +27,7 @@ Deploy `contracts/QuestEscrow.sol` with the verified WIF token address as constr
 
 ## Submission checklist
 
-- [ ] Implement and test AI-assisted drafting.
+- [ ] Validate on-device AI drafting on supported hardware and improve compatibility.
 - [ ] Review the contract and verify WIF token compatibility.
 - [ ] Deploy escrow on Robinhood Chain and configure the frontend.
 - [ ] Execute a real funding and payout flow; record explorer links.
