@@ -4,6 +4,10 @@ WIF Quest is a work-in-progress quest board for creators and contributors. The p
 
 **Status: prototype, not deployed.** The frontend shows an empty state until a real escrow is configured. Optional AI drafting uses the browser's on-device Prompt API where available; it requires a compatible browser, hardware and model download, and has not been validated on all devices. There are no mainnet transaction proofs yet. This prototype has not been audited; do not use it with meaningful funds.
 
+## Prototype preview
+
+[Watch the 24-second prototype preview](video/wif-quest-demo-preview-v2.mp4). It shows the current interface; mainnet escrow and token payments are not yet live.
+
 ## Local development
 
 ```sh
